@@ -43,7 +43,8 @@ body {
   width: 100%;
   justify-content: space-between;
   height: 100vh;
-  background-image: url(WebsiteBackground.jpg) no-repeat;
+  background-image: url(/Users/christiansalinas/Documents/GitHub/PortfolioWebsite/images/WebsiteBackground.png)
+    no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;

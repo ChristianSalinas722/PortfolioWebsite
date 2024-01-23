@@ -22,26 +22,31 @@ body {
 .logo {
   position: relative;
   font-size: 25px;
-  color: #b2bcaa;
+  color: #fcc8b2;
   text-decoration: none;
   font-weight: 600;
 }
 .navbar a {
   display: inline-block;
   font-size: 25px;
-  color: #b2bcaa;
+  color: #a3bbad;
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
   transition: 0.3s;
 }
 .navbar a:hover {
-  color: #c9cebd;
+  color: #fcc8b2;
 }
 .home {
   position: relative;
   width: 100%;
   justify-content: space-between;
   height: 100vh;
-  background: #000004 no-repeat;
+  background-image: url(WebsiteBackground.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
 }

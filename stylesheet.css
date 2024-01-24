@@ -132,6 +132,26 @@ body {
     0 0 100px #a3bbad, 0 0 200px #a3bbad;
 }
 
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+}
+.about-Img img {
+  padding-bottom: 20%;
+  max-width: 500px;
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+}
+.about-Text h2 {
+  font-size: 60px;
+}
+.about-Text span {
+  color: #a3bbad;
+}
+
 @keyframes slideRight {
   0% {
     transform: translateX(-100px);

@@ -6,6 +6,7 @@
 }
 body {
   color: #f7ebe8;
+  background: #1e1e24;
 }
 .header {
   position: fixed;
@@ -150,6 +151,19 @@ body {
 }
 .about-Text span {
   color: #a3bbad;
+}
+.about-Text h4 {
+  font-size: 29px;
+  font-weight: 600;
+  color: #fcc8b2;
+  line-height: 1.7;
+  margin: 15px 0 30px;
+}
+.about-Text p {
+  color: #f7ebe8;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
 }
 
 @keyframes slideRight {

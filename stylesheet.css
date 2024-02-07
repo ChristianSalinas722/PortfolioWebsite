@@ -43,6 +43,8 @@ body {
   animation-delay: calc(0.2s * var(--i));
 }
 .navbar a:hover {
+  font-size: 30px;
+  font-weight: 600;
   color: #fcc8b2;
 }
 .home {
@@ -110,6 +112,8 @@ body {
   animation-delay: calc(0.2s * var(--i));
 }
 .home-sci a:hover {
+  width: 50px;
+  height: 50px;
   background: #fcc8b2;
   color: #1e1e24;
   box-shadow: 0 0 20px #fcc8b2;
@@ -127,10 +131,12 @@ body {
   opacity: 0;
   animation: slideTop 0.5s ease forwards;
   box-shadow: 0 0 5px #fcc8b2, 0 0 25px #fcc8b2;
+  transition: 0.3s;
 }
 .btn-box:hover {
   box-shadow: 0 0 5px #a3bbad, 0 0 25px #a3bbad, 0 0 50px #a3bbad,
     0 0 100px #a3bbad, 0 0 200px #a3bbad;
+  padding: 24px 56px;
 }
 
 .about {
@@ -189,6 +195,7 @@ body {
   grid-gap: 40px;
   margin-top: 50px;
 }
+
 .Skills-list div {
   background-color: transparent;
   padding: 40px;
@@ -229,10 +236,14 @@ body {
   animation: slideTop 1s ease forwards;
   animation-delay: 0.7s;
   box-shadow: 0 0 5px #fcc8b2, 0 0 25px #fcc8b2;
+  transition: 0.3s;
 }
 .read:hover {
+  font-size: 20px;
+  font-weight: 700;
   box-shadow: 0 0 5px #a3bbad, 0 0 25px #a3bbad, 0 0 50px #a3bbad,
     0 0 100px #a3bbad, 0 0 200px #a3bbad;
+  padding: 24px 40px;
 }
 
 @keyframes slideRight {
